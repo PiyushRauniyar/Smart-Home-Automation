@@ -28,4 +28,4 @@ Once the application is running, navigate to the homepage which will display liv
 
 ## Watch the Video
 
-[![Watch the video](images/thumbnail.png)](https://www.youtube.com/watch?v=eygm6eAkMXQ)
+[![Watch the video](https://www.youtube.com/watch?v=eygm6eAkMXQ)
