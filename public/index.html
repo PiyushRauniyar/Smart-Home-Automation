@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Sensor Dashboard</h2>
+    
+    <!-- Analog Sensor Data -->
+    <div class="sensor-chart">
+        <h3>Light Intensity (LDR) <span id="ldrValue"></span></h3>
+        <canvas id="ldrChart"></canvas>
+    </div>
+    <div class="sensor-chart">
+        <h3>Gas Level (MQ5) <span id="mq5Value"></span></h3>
+        <canvas id="mq5Chart"></canvas>
+    </div>
+    <div class="sensor-chart">
+        <h3>Smoke Level (MQ2) <span id="mq2Value"></span></h3>
+        <canvas id="mq2Chart"></canvas>
+    </div>
+    <div class="sensor-chart">
+        <h3>Sound Intensity <span id="soundValue"></span></h3>
+        <canvas id="soundChart"></canvas>
+    </div>
+    <div class="sensor-chart">
+        <h3>Temperature <span id="temperatureValue"></span></h3>
+        <canvas id="temperatureChart"></canvas>
+    </div>
+    <div class="sensor-chart">
+        <h3>Humidity <span id="humidityValue"></span></h3>
+        <canvas id="humidityChart"></canvas>
+    </div>
+
+    <!-- Digital Sensor Status -->
+    <div>
+        <span id="pirStatus" class="status-indicator">Motion Detected: --</span>
+        <span id="proximityStatus" class="status-indicator">Proximity Detected: --</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
