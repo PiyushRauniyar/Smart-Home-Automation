@@ -24,3 +24,10 @@ The Smart Home Automation project is designed to provide real-time environmental
 
 ## Usage
 Once the application is running, navigate to the homepage which will display live graphs for each sensor. Watch as the graph lines change from green to red when sensor values exceed their thresholds.
+
+# Smart Home Automation
+
+![Smart Home Automation Thumbnail](sandbox:/mnt/data/A_thumbnail_for_the_project_'Smart_Home_Automation.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eygm6eAkMXQ?si=Eu1w01w6v8qWR8ky" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
